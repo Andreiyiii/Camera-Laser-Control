@@ -1,8 +1,8 @@
-# 🖐️ Finger-Tracking Laser Turret
+# 🖐️ Finger-Tracking Laser 
 
 This project combines Artificial Intelligence and Computer Vision to control a laser turret through hand gestures. The system detects the position of your finger via webcam and physically moves a laser to track it in real-time.
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 
 * **Microcontroller:** Arduino Uno
 * **Actuators:** 2x SG90 Servo Motors (X-axis and Y-axis)
@@ -31,7 +31,7 @@ Image processing is handled in Python using:
 * `MediaPipe`: For hand landmark detection.
 * `pySerial`: For communicating with the Arduino.
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1.  **Upload Arduino Code:** Use the Arduino IDE or the VS Code Arduino extension to upload the `.ino` sketch to your board.
 2.  **Python Configuration:**
