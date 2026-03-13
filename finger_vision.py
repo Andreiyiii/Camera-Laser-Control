@@ -24,8 +24,7 @@ while True:
     if not succes:
         break
         
-    # flip image to represent direction correctly
-    frame = cv2.flip(frame, 1)
+
     h, w, c = frame.shape
     
     # using RGB instead of BGR
