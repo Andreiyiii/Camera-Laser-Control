@@ -40,8 +40,8 @@ while True:
             # X axis on 0 to 180
             unghiX = int(x_deget * 180)
             
-            # Y is between 45 si 115 for motor limitation
-            unghiY = int(25 + (y_deget * 90))
+            # Y is between 45 si 135 for motor limitation
+            unghiY = int(45 + (y_deget * 80))
             
             #send data 
             if arduino:
