@@ -10,7 +10,6 @@ void setup() {
 
 void loop() {
  
-  motorTilt.write(90); 
   
   motorPan.write(0);
   delay(1500);
